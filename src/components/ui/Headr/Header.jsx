@@ -1,5 +1,4 @@
 import React from 'react'
-import './header.css'
 import { Link } from 'react-router-dom'
 
 
@@ -8,7 +7,7 @@ const Header = () => {
 
   return (
 
-    <header className='header flex items-center justify-between  px-4'>
+    <header className=' h-14 bg-sky-700 flex items-center justify-between  px-4'>
         <h1 className='text-3xl font-bold font-serif'>
         United Future Task 
         </h1>
