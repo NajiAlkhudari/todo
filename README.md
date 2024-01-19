@@ -17,8 +17,15 @@ Copy the “HTTPS clone URL” link using the clipboard icon at the bottom right
 
 ```bash
   git clone https://github.com/NajiAlkhudari/todo.git
-  git pull https://github.com/NajiAlkhudari/todo.git
-  
+```
+
+## Running 
+
+To run , run the following command
+
+```bash
+  npm install 
+  npm run dev 
 ```
     
 
