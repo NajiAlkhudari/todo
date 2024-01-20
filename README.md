@@ -1,9 +1,41 @@
-# React + Vite
+# Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to our project! This is a Task Manager App made in React.js and the Redux toolkit state mangment , where use to tailiwnd css It is Highly Customizable and applied responsive design . It allows users to quickly and easily add, delete, and update events and tasks. With this App, users can effortlessly manage their tasks and events. We hope you enjoy and we look forward to your contributions!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# todo
+- Scalable & Maintainable
+- Not complicated
+- Responsive Design
+- Reusable Components
+- Folders and Files Organized
+
+
+## Installation
+
+Copy the “HTTPS clone URL” link using the clipboard icon at the bottom right 
+
+```bash
+  git clone https://github.com/NajiAlkhudari/todo.git
+```
+
+## Running 
+
+To run , run the following command
+
+```bash
+  npm install 
+  npm run dev 
+```
+    
+
+## Demo
+
+https://todo-eosin-iota.vercel.app/
+
+
+## Authors
+
+- [@NajiAlkhudari](https://github.com/NajiAlkhudari)
+
+
