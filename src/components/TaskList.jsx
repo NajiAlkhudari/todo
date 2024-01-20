@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { deleteTask, updateTask } from '../store/tasksSlice'
 import Button from './ui/Button'
 import TaskItem from './TaskItem'
+import { FcGenericSortingAsc , FcGenericSortingDesc  } from "react-icons/fc";
 
 
 const TaskList = () => {
@@ -41,16 +42,20 @@ const TaskList = () => {
   }
 
   const handleSort = () => {
-    setSortOrder(sortOrder === 'desc' ? 'asc' : 'desc')
+    setSortOrder(sortOrder === 'desc' ? 'asc'
+    : 'desc')
   }
 
   return (
     <>
       <div className=' '>
         <div className='xl:mx-10 space-y-6  mt-4 rounded-3xl my-10'>
-          <h1 className='text-xl underline'>Tasks</h1>
-          
-          <Button onClick={handleSort}> date ({sortOrder})</Button>
+          <div className='flex items-center justify-between'>       
+               <h1 className='text-xl underline'>Tasks</h1>
+               <Button className="text-2xl" onClick={handleSort}>
+  {sortOrder === 'desc' ? <FcGenericSortingDesc /> : <FcGenericSortingAsc />}
+</Button>          </div>
+
           {sortedTasks.map((task, index) => (
             <TaskItem 
               task={task} 

@@ -13,8 +13,8 @@ const TaskItem = ({ task, index, handleDeleteTask, handleEditTask, selectedTask,
             <li className='font-semibold'>{task.date}</li>
           </div>
           <div className='flex space-x-2'>
-            <Button className="text-white bg-red-400 rounded-full px-6" onClick={() => handleDeleteTask(index)}>Delete</Button>
-            <Button className="text-white bg-green-400 rounded-full px-6" onClick={() => handleEditTask(index)}>Update</Button>
+            <Button className="text-white bg-red-400 hover:bg-red-500 rounded-full px-6" onClick={() => handleDeleteTask(index)}>Delete</Button>
+            <Button className="text-white bg-green-400  hover:bg-green-500 rounded-full px-6" onClick={() => handleEditTask(index)}>Update</Button>
           </div>
         </div>
         {selectedTask === index && (
