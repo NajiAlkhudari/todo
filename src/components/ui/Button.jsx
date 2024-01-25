@@ -6,9 +6,7 @@ const Button = ({className , disable, text ,type  , onClick  , children ,value }
     disabled={disable}
     type={type}
     onClick={onClick}
-    value={value}
-   
-    >
+    value={value}  >
       <span>{text}</span>
       {children}
       </button>

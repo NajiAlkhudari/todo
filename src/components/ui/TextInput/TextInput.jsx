@@ -8,7 +8,7 @@ const TextInput = ({ className,label, value, name,onChange, placeholder , type})
     <div>
       <label>{label}</label>
       <input
-      className={`text-input ${className}`}
+      className={`text-input ${className}  `}
         value={value}
         onChange={onChange}
         placeholder={placeholder}

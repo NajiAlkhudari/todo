@@ -20,6 +20,8 @@ const AddTask = () => {
     setData({ ...data, [event.target.name]: event.target.value })
   }
 
+ 
+
   const handleAddTask = () => {
     dispatch(addTask(data))
     setData({ title: "", description: "", date: currentDate })
